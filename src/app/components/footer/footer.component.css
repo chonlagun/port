@@ -1,0 +1,7 @@
+footer {
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 67%);
+    background-size: 200% 100% 50%; /* ปรับค่าขนาดของ gradient */ 
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }

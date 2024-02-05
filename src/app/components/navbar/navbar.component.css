@@ -1,0 +1,50 @@
+.navbar {
+  background: rgb(238,174,202);
+  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 67%);
+  background-size: 200% 100% 50%; /* ปรับค่าขนาดของ gradient */
+  color: white;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+
+a{
+  color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 15px;
+    position: relative;
+}
+
+.container{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+a.logo{
+  font-weight: bold;
+  padding: 1rem;
+}
+
+ul{
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+ul a{
+  padding: 1rem;
+  display: inline-block;
+}
+
+.nav-menu a {
+  padding: 1rem;
+  display: inline-block;
+  transition: 0.5s ease-in-out;
+}
+
+.nav-menu a:hover {
+  background: #4F95DA;
+  border-radius: 5rem;
+}
+

@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+ html,body { 
+    height: auto;
+    min-height: 83vh;
+}
+body { margin: 0; font-family: 'Open Sans', sans-serif;background: rgb(140,255,230);
+    background: linear-gradient(281deg, rgba(140,255,230,1) 10%, rgba(42,171,242,1) 47%, rgba(3,197,212,1) 100%); height: 100%; width: 100%;}
