@@ -1,13 +1,7 @@
 * {
     box-sizing: border-box;
   }
-  
-  body {
-    background-color: #f1f1f1;
-    padding: 20px;
-    font-family: Arial;
-  }
-  
+
   /* Center website */
   .main {
     max-width: 1000px;
@@ -46,6 +40,9 @@
   .content {
     background-color: white;
     padding: 10px;
+    border-radius: 3%;
+    min-height: 580px; 
+    flex: 1; 
   }
   
   /* Responsive layout - makes a two column-layout instead of four columns */
@@ -60,4 +57,22 @@
     .column {
       width: 100%;
     }
+  }
+
+  .content img{
+    width: 200px;
+    height: 100px;
+  }
+
+  hr.gradient {
+    height: 3px;
+    border: none;
+    border-radius: 6px;
+    background: linear-gradient(
+      90deg,
+      rgb(118, 165, 197) 0%,
+      rgb(64, 146, 184) 21%,
+      rgba(6, 84, 170, 1) 51%,
+      rgb(0, 255, 221) 100%
+    );
   }
